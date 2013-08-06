@@ -1,0 +1,25 @@
+<package type="addon" name="nuxeo-dam-pdf-export" version="@VERSION@">
+  <title>Nuxeo DAM PDF Export</title>
+  <description>
+  <p>The Nuxeo DAM PDF Export package enables Nuxeo DAM users to export a set of pictures on a PDF
+    file.</p>
+  </description>
+  <home-page>http://doc.nuxeo.com/x/r4zZ</home-page>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+  <!-- <hotreload-support>false</hotreload-support> -->
+  <!-- <require-terms-and-conditions-acceptance>false -->
+  <!-- </require-terms-and-conditions-acceptance> -->
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>production_ready</production-state>
+  <supported>true</supported>
+  <platforms>
+    <platform>cap-@DISTRIB_VERSION@</platform>
+  </platforms>
+  <dependencies>
+    <package>nuxeo-dam:@DISTRIB_VERSION@</package>
+  </dependencies>
+  <license>LGPL</license>
+  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+</package>
