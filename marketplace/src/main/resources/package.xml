@@ -18,7 +18,7 @@
     <platform>cap-@DISTRIB_VERSION@</platform>
   </platforms>
   <dependencies>
-    <package>nuxeo-dam:@DISTRIB_VERSION@</package>
+    <package>nuxeo-dam-compat:@DISTRIB_VERSION@</package>
   </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
