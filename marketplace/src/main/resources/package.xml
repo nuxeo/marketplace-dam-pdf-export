@@ -16,9 +16,10 @@
   <supported>true</supported>
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
+    <platform>cap-@DISTRIB_VERSION@-HF*</platform>
   </platforms>
   <dependencies>
-    <package>nuxeo-dam-compat:@DISTRIB_VERSION@</package>
+    <package>nuxeo-dam-compat</package>
   </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
